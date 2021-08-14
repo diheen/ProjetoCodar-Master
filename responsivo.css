@@ -1,0 +1,501 @@
+@media screen and (min-width: 1440px) and (max-width: 1920px){
+    .cabecalho__nav___lista{
+        display: flex;
+        width: 15vw;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 3rem;
+    }
+
+    .cabecalho__nav___link{
+        text-decoration: none;
+        color: black;
+        margin-left: 2rem;
+    }
+
+    .introducao{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 20rem;
+        margin-top: 5rem;
+    }
+
+    .informacoes{
+        margin-top: 8rem;
+    }
+
+    .informacoes__container{
+        width: 80%;
+    }
+
+
+    .cards{
+        margin-top: 10rem;
+    }
+
+    .cards__card{
+        background: rgb(235, 235, 235);
+        width: 30vw;
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+    .cabecalho__nav___lista{
+        margin-right: 9rem;
+    }
+    .cabecalho__nav___link{
+        margin-left: 2rem;
+    }
+
+    .introducao{
+        margin-left: 10%;
+        padding: 0;
+        margin-top: 2rem;
+    }
+    
+    .informacoes{
+        margin-left: 10%;
+        padding: 0;
+        margin-top: 4rem;
+    }
+    
+    .informacoes__container{
+        width: auto;
+
+    }
+
+    .cards{
+        margin-top: 4rem;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .cards__card{
+        width: 100%;
+        margin-left: 2rem;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    body{
+        margin: 0;
+    }
+
+    .cabecalho{
+        margin-left: 2%;
+        flex-direction: column;
+    }
+    
+    .cabecalho__nav___lista{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .cabecalho__nav___link{
+        margin-left: 2rem;
+    }
+
+    .cabecalho__nav___item--botao{
+        display: none;
+    }
+
+    .introducao__imagem{
+        width: 300px;
+        margin-left: 10%;
+    }
+    .introducao{
+        padding: 0;
+        padding-top: 1rem;
+        margin-left: 20%;
+        flex-direction: column;
+
+    }
+
+    .introducao__container{
+        text-align: center;
+    }
+
+    .introducao__titulo{
+        line-height: 0.2rem; 
+    }
+    .introducao__descricao{
+        line-height: 0.2rem;
+    }
+    .introducao_botao{
+        width: 18rem;
+        height: 3rem;
+        border-radius: 15px;
+        margin-left: 5%;
+        
+    }
+
+    .informacoes{
+        padding: 0;
+        margin-top: 10rem;
+        margin-left: 5%;
+   
+    }
+    .informacoes__container{
+        flex-direction: column-reverse;
+    }
+    .informacoes__imagem{
+        width: 300px;
+        
+    }
+    .informacoes__lista{
+        margin-top: 2rem;
+        line-height: 4rem;
+    }
+
+    .infomacoes__container___2{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        text-align: center;
+        margin-left: 30%;
+    }
+    .informacoes__input{
+        width: 13rem;
+        margin-left: 10%;
+    }
+    .informacoes__botao{
+        width: 13rem;
+        margin-left: 10%;
+        margin-top: 1rem;
+        height: 3rem;
+    }
+    .cards{
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: 25%;
+    }
+
+    .cards__card{
+        margin-top: 5%;
+        width: 80%;
+        border: none;
+        border-radius: 15px;
+    }
+
+    .rodape{
+        flex-direction: column;
+        width: 100vw;
+    }
+    .rodape__logo{
+        font-size: 3rem;
+        
+    }
+
+    .rodape__1{
+        line-height: 0.5rem;
+        margin-left: 10rem;
+    }
+    
+    .rodape__2{
+        line-height: 0.5rem;
+        text-align: left;
+    }
+    .rodape_imagens{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px){
+    body{
+        margin-left: 10%;
+    }
+
+    .cabecalho{
+        margin-left: 2%;
+        flex-direction: column;
+    }
+
+    .cabecalho__logo{
+        font-size: 3.5rem;
+    }
+    
+    .cabecalho__nav___lista{
+        margin-top: 0;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .cabecalho__nav___link{
+        margin-left: 2rem;
+    }
+
+    .cabecalho__nav___item--botao{
+        display: none;
+    }
+
+    .introducao__imagem{
+        width: 250px;
+        margin-left: 10%;
+    }
+    .introducao{
+        padding: 0;
+        padding-top: 1rem;
+        margin-left: 10%;
+        flex-direction: column;
+
+    }
+
+    .introducao__container{
+        margin-left: 0;
+        margin-right: 10%;
+        text-align: center;
+    }
+
+    .introducao__titulo{
+        line-height: 0.3rem; 
+        margin-right: 10%;
+    }
+    .introducao__descricao{
+        line-height: 0.3rem;
+    }
+    .introducao_botao{
+        width: 18rem;
+        height: 3rem;
+        border-radius: 15px;
+        margin-left: 5%;
+        
+    }
+
+    .informacoes{
+        padding: 0;
+        margin-top: 8rem;
+        margin-left: 15%;
+   
+    }
+    .informacoes__container{
+        flex-direction: column-reverse;
+    }
+    .informacoes__imagem{
+        width: 250px;
+        
+    }
+    .informacoes__lista{
+        margin-top: 2rem;
+        line-height: 3rem;
+        width: 80vw;
+    }
+    .informacoes__descricao{
+        font-size: 1.3rem;
+    }
+
+    .infomacoes__container___2{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        text-align: center;
+    }
+    .informacoes__input{
+        width: 50vw;
+        margin-left: 10%;
+        font-size: 1.1rem;
+        height: 3rem;
+    }
+    .informacoes__botao{
+        width: 50vw;
+        margin-left: 10%;
+        margin-top: 1rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    .cards{
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: 5%;
+    }
+
+    .cards__card{
+        margin-top: 5%;
+        width: 90vw;
+        border: none;
+        border-radius: 15px;
+    }
+    .cards__card___informacoes{
+        font-size: 1.1rem;
+        line-height: 1rem;
+    }
+    .cards__card___informacoes--nome{
+        font-size: 1.2rem;
+
+    }
+
+    .rodape{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .rodape__logo{
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .rodape__1{
+        line-height: 0.5rem;
+        margin-left: 2rem;
+    }
+    
+    .rodape__2{
+        line-height: 0.5rem;
+        text-align: left;
+    }
+    .rodape_imagens{
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 425px){
+    body{
+        margin-left: 10%;
+    }
+
+    .cabecalho{
+        margin-left: 2%;
+        flex-direction: column;
+    }
+
+    .cabecalho__logo{
+        font-size: 3.5rem;
+    }
+    
+    .cabecalho__nav___lista{
+        margin-top: 0;
+        margin-right: 2rem;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .cabecalho__nav___link{
+        margin-left: 2rem;
+    }
+
+    .cabecalho__nav___item--botao{
+        display: none;
+    }
+
+    .introducao__imagem{
+        width: 250px;
+        margin-left: 10%;
+    }
+    .introducao{
+        padding: 0;
+        padding-top: 1rem;
+        margin-left: 10%;
+        flex-direction: column;
+
+    }
+
+    .introducao__container{
+        margin-left: 0;
+        width: 70vw;
+        text-align: center;
+        margin-right: 20%;
+    }
+
+    .introducao__titulo{
+        line-height: 0.3rem; 
+        margin-right: 20%;
+    }
+    .introducao__descricao{
+        line-height: 0.3rem;
+    }
+    .introducao_botao{
+        width: 18rem;
+        height: 3rem;
+        border-radius: 15px;
+        margin-left: 5%;
+        
+    }
+
+    .informacoes{
+        padding: 0;
+        margin-top: 8rem;
+        margin-left: 15%;
+   
+    }
+    .informacoes__container{
+        flex-direction: column-reverse;
+    }
+    .informacoes__imagem{
+        width: 250px;
+        
+    }
+    .informacoes__lista{
+        margin-top: 2rem;
+        line-height: 3rem;
+        width: 80vw;
+    }
+    .informacoes__descricao{
+        font-size: 1.3rem;
+        margin-right: 2rem;
+    }
+
+    .infomacoes__container___2{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        text-align: center;
+    }
+    .informacoes__input{
+        width: 70vw;
+        margin-left: 0;
+        font-size: 1.1rem;
+        height: 3rem;
+    }
+    .informacoes__botao{
+        width: 70vw;
+        margin-left: 0;
+        margin-top: 1rem;
+        height: 3rem;
+        font-size: 1.2rem;
+    }
+    .cards{
+        flex-direction: column;
+        margin-top: 5rem;
+        margin-left: 2%;
+    }
+
+    .cards__card{
+        margin-top: 5%;
+        width: 90vw;
+        border: none;
+        border-radius: 15px;
+    }
+    .cards__card___informacoes{
+        font-size: 1.1rem;
+        line-height: 1rem;
+    }
+    .cards__card___informacoes--nome{
+        font-size: 1.2rem;
+
+    }
+
+    .rodape{
+        flex-direction: column;
+        width: 80vw;
+    }
+    .rodape__logo{
+        font-size: 3rem;
+        margin-left: 3rem;
+    }
+
+    .rodape__1{
+        line-height: 0.5rem;
+        margin-left: 2rem;
+    }
+    
+    .rodape__2{
+        line-height: 0.5rem;
+        text-align: left;
+    }
+    .rodape_imagens{
+        text-align: left;
+    }
+}
+

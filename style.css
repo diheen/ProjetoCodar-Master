@@ -1,0 +1,214 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    padding: 2rem;
+    margin-left: 5rem;
+}
+
+.cabecalho{
+    display: flex;
+    width: 80vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__logo{
+    color: #D6000D;
+    font-style: italic;
+    margin-left: 5vw;
+}
+.cabecalho__logo--ponto{
+    color: black;
+}
+.cabecalho__nav___lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cabecalho__nav___item{
+    list-style: none;
+    font-weight: 500;
+}
+
+.cabecalho__nav___link{
+    text-decoration: none;
+    color: black;
+}
+.cabecalho__nav___link:hover{
+    color: rgba(0, 0, 0, 0.308);
+}
+
+.cabecalho__nav___item--botao{
+    background-color: #D6000D;
+    border: none;
+    border-radius: 5px;
+    width: 5vw;
+    height: 3vh;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.cabecalho__nav___item--botao:hover{
+    background-color: #d6000ea1;
+}
+
+.main{
+    align-items: center;
+}
+
+.introducao{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20rem;
+}
+
+.introducao__imagem{
+    width: 400px;
+}
+
+.introducao__container{
+    margin-right: 30vw;
+    margin-top: 3rem;
+    margin-left: 3rem;
+    line-height: 0.5rem;
+}
+
+.introducao__descricao{
+    font-weight: 700;
+}
+.introducao__titulo{
+    line-height: 3rem;
+    color: #D6000D;
+    font-size: 3rem;
+    white-space: nowrap;
+    
+}
+
+.introducao_botao{
+    background-color: #D6000D;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 15rem;
+    height: 2rem;
+    font-size: 1.075rem;
+    cursor: pointer;
+}
+
+.informacoes{
+    margin-left: 14rem;
+
+}
+
+.informacoes__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.informacoes__imagem{
+    width: 400px;
+}
+
+.informacoes__lista{
+    line-height: 2.5rem;
+    list-style: none;
+    margin-left: 0;
+    
+}
+
+
+.informacoes__lista___item{
+    font-size: 1.2rem;
+    list-style: none;
+}
+
+.informacoes__lista___item::before{
+    content: '';
+    display: inline-block;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+    background-image: url(/assets/check-circle-solid.svg);
+
+}
+
+.svg__item{
+    fill: #D6000D;
+}
+.informacoes__descricao{
+    font-weight: 700;
+}
+
+.informacoes__input{
+    background: rgb(235, 235, 235);
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    text-align: start;
+}
+
+.informacoes__botao{
+    background: #D6000D;
+    border: none;
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.cards{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin-left: 14%;
+}
+
+.cards__card{
+    background: rgb(235, 235, 235);
+    width: 30vw;
+    display: flex;
+}
+
+.cards__imagem{
+    width: 50px;
+    margin-bottom: 3rem;
+    margin-left: 1rem;
+}
+
+.cards__card___informacoes{
+    padding: 1rem;
+    line-height: 1rem;
+}
+.rodape{
+    display: flex;
+    margin-top: 6rem;
+    background-color: black;
+    width: 90%;
+    justify-content: space-between;
+    color: #fff;
+    padding: 3rem;
+}
+
+.rodape__logo{
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.rodape__titulo{
+    font-size: 1.5rem;
+}
+
+.rodape__imagens___container{
+    display: flex;
+    width: 200px;
+    justify-content: space-around; 
+}
+
+.rodape__imagem{
+    width: 40px;
+    margin-right: 1.5rem;
+}
